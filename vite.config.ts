@@ -28,8 +28,6 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			...absolutePathAliases,
-			'@constants': '/src/shared/constants',
-			components: '/src/shared/components/'
-		}
+			'@constants': '/src/constants',		}
 	}
 })

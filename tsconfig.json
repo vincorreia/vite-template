@@ -17,10 +17,9 @@
 		"noEmit": true,
 		"jsx": "react-jsx",
 		"paths": {
-			"components/*": ["shared/components/*"],
-			"@constants": ["shared/constants"]
+			"@constants": ["constants"]
 		}
 	},
 	"include": ["src", "svg.d.ts"],
-	"references": [{ "path": "./tsconfig.node.json" }],
+	"references": [{ "path": "./tsconfig.node.json" }]
 }
